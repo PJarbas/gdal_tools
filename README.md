@@ -15,8 +15,11 @@
 ```$ gdalinfo file.hdf```
 
 select one of the subdatasets
+
 the name is all after SUBDATASET_n_NAME=
+
 then
+
 ```$ gdal_translate -of "NetCDF" subdataset_name file.nc```
 
 reference: http://www.gdal.org/frmt_hdf4.html
